@@ -108,4 +108,32 @@ for (let key in options) {
 }
 console.log(Object.keys(options).length);
 
+let arr = ["first", 2, 3, "four", 5];
 
+/*  arr.pop();
+arr.push("5");
+arr.shift();
+arr.unshift("1");
+console.log(arr); */
+ /* for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}  */
+ /* arr.forEach(function(item, i, mass) {
+    console.log(i + ': ' + item + " (массив: " + mass +')');
+});
+console.log(arr);
+
+let ans = prompt("" , ""),
+arr = [];
+
+arr = ans.split(',');
+console.log(arr);*/
+
+ /* let arr = ["aawe", 'zzz', 'ppp','sss'],
+i = arr.join(', ');
+console.log(i);*/
+
+
+let arr = ["aawe", 'zzz', 'ppp','sss'],
+i = arr.sort();
+console.log(arr);
